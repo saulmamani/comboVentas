@@ -1,42 +1,37 @@
-import combo.Combo;
-import combo.Product;
+import combo.*;
 
 import java.util.List;
 import java.util.ArrayList;
 
 public class MainVentas {
-    public static List<Combo> inventario = new ArrayList<Combo>();
+    public static List<ComboProduct> inventario = new ArrayList<ComboProduct>();
 
     public static void main(String[] args)
     {
-        List<Product> B1 = new ArrayList<Product>();
-        B1.add(new Product("Cocke", 10.0));
-        inventario.add(new Combo("B1", B1, 0));
 
-        List<Product> B2 = new ArrayList<Product>();
-        B2.add(new Product("Lemonade", 5.0));
-        inventario.add(new Combo("B2", B2, 0));
+        inventario.add(Only.getCombo("P1",  new Product("Cocke", 10.0)));
+        inventario.add(Only.getCombo("P2",  new Product("Lemonade", 5.0)));
+        inventario.add(Only.getCombo("P3",  new Product("Plastic Soda Cup", 15.0)));
 
-        List<Product> Combo1 = new ArrayList<Product>();
-        Combo1.add(new Product("Lemonade", 5.0));
-        Combo1.add(new Product("Cheese Burger", 15.0));
-        inventario.add(new Combo("Combo1", Combo1, 0.05));
+        inventario.add(Only.getCombo("P4",  new Product("Chunky Fries", 10.0)));
+        inventario.add(Only.getCombo("P5",  new Product("Classic Fries", 12.0)));
+        inventario.add(Only.getCombo("P6",  new Product("Yuka Frita", 7.0)));
+        inventario.add(Only.getCombo("P7",  new Product("Cheese Burger", 15.0)));
+        inventario.add(Only.getCombo("P8",  new Product("Classic Burger", 20.0)));
+        inventario.add(Only.getCombo("P9",  new Product("ChickenBurger", 25.0)));
+        inventario.add(Only.getCombo("P10", new Product("Box", 15.0)));
+        inventario.add(Only.getCombo("P11", new Product("Wax Paper", 12.0)));
 
+        inventario.add(CockeYukaFrita.getCombo("C1"));
+        inventario.add(LemonadaCheeseBurgerBox.getCombo("C2"));
 
+        System.out.println("INVENTARIO");
+        showInventario(inventario);
+    }
 
-
-//        inventario.add(new Product[]{new Product("Cocke", 10.0), new Product("Cocke", 10.0)});
-//
-//        inventario.add(new Product("Lemonade", 5.0));
-//        inventario.add(new Product("Plastic Soda Cup", 15.0));
-//
-//        inventario.add(new Product("Chunky Fries", 10.0));
-//        inventario.add(new Product("Classic Fries", 12.0));
-//        inventario.add(new Product("Yuka Frita", 7.0));
-//        inventario.add(new Product("Cheese Burger", 15.0));
-//        inventario.add(new Product("Classic Burger", 20.0));
-//        inventario.add(new Product("ChickenBurger", 25.0));
-//        inventario.add(new Product("Box", 15.0));
-//        inventario.add(new Product("Wax Paper", 12.0));
+    private static void showInventario(List<ComboProduct> inventario) {
+        for(ComboProduct combo : inventario) {
+            System.out.println(combo);
+        }
     }
 }
