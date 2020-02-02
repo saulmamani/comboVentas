@@ -13,6 +13,7 @@ public class ComboProduct {
         this.codigo = codigo;
         this.products.addAll(products);
         this.descuento = descuento;
+        this.setCostoVenta();
     }
 
     public String getCodigo() {
@@ -31,11 +32,9 @@ public class ComboProduct {
 
     @Override
     public String toString() {
-        return "ComboProduct{" +
-                "codigo='" + codigo + '\'' +
-                ", products=" + products +
-                ", descuento=" + descuento +
-                ", costoVenta=" + costoVenta +
-                '}';
+        return "Combo:" + codigo +
+                "\n\t products=" + products +
+                "\n\t descuento=" + descuento +
+                "\n\t costoVenta=" + costoVenta;
     }
 }
