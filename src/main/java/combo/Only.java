@@ -1,13 +1,27 @@
 package combo;
 
-import java.util.ArrayList;
-import java.util.List;
+public class Only extends ComboBuilder {
+    private String code;
+    private Product product;
 
-public class Only {
+    public Only(String code, Product product) {
+        super.combo = new Combo();
+        this.code = code;
+        this.product = product;
+    }
 
-    public static ComboProduct getCombo(String code, Product product) {
-        List<Product> item = new ArrayList<Product>();
-        item.add(product);
-        return new ComboProduct(code, item, 0);
+    @Override
+    public void buildCode() {
+        combo.code = this.code;
+    }
+
+    @Override
+    public void buildProduct() {
+        combo.products.add(product);
+    }
+
+    @Override
+    public void buildDiscount() {
+        combo.discount = 0;
     }
 }

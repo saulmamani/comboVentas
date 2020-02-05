@@ -1,16 +1,24 @@
 package combo;
 
-import java.util.ArrayList;
-import java.util.List;
+public class LemonadaCheeseBurgerBox extends ComboBuilder {
+    public LemonadaCheeseBurgerBox() {
+        super.combo = new Combo();
+    }
 
-public class LemonadaCheeseBurgerBox {
+    @Override
+    public void buildCode() {
+        combo.code = "C2";
+    }
 
-    public static ComboProduct getCombo(String code) {
-        List<Product> items = new ArrayList<Product>();
-        items.add(new Product("Lemonade", 5.0));
-        items.add(new Product("Cheese Burger", 15.0));
-        items.add(new Product("Box", 15.0));
+    @Override
+    public void buildProduct() {
+        combo.products.add(new Product("Lemonade", 5.0));
+        combo.products.add(new Product("Cheese Burger", 15.0));
+        combo.products.add(new Product("Box", 15.0));
+    }
 
-        return new ComboProduct(code, items, 0.15);
+    @Override
+    public void buildDiscount() {
+        combo.discount = 0.15;
     }
 }
