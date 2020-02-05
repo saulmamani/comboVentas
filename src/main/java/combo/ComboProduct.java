@@ -4,8 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ComboProduct {
-    protected List<Product> products = new ArrayList<Product>();
     protected String codigo;
+    protected List<Product> products = new ArrayList<Product>();
     protected double descuento = 0.0;
     protected double costoVenta;
 

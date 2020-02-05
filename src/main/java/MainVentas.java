@@ -37,7 +37,7 @@ public class MainVentas {
     }
 
     private static void firshSale(List<ComboProduct> inventario, List<ComboProduct> carrito) {
-        System.out.println("Primera venta");
+        System.out.println("***** Primera venta");
         carrito.clear();
         carrito.add(seachCombo("P1", inventario));
         carrito.add(seachCombo("P11", inventario));
@@ -45,14 +45,14 @@ public class MainVentas {
     }
 
     private static void secondSale(List<ComboProduct> inventario, List<ComboProduct> carrito) {
-        System.out.println("Segunda venta");
+        System.out.println("***** Segunda venta");
         carrito.clear();
         carrito.add(seachCombo("C1", inventario));
         showSale(carrito);
     }
 
     private static void thirdSale(List<ComboProduct> inventario, List<ComboProduct> carrito) {
-        System.out.println("Tercera venta");
+        System.out.println("***** Tercera venta");
         carrito.clear();
         carrito.add(seachCombo("C2", inventario));
         showSale(carrito);
