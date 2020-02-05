@@ -1,20 +1,19 @@
 package combo;
 
-public class ComboDirector {
+public class ComboDirect {
     ComboBuilder comboBuilder;
 
-    public Combo getCombo() {
-        return comboBuilder.getCombo();
-    }
-
-    public void setComboBuilder(ComboBuilder comboBuilder) {
+    public ComboDirect setComboBuilder(ComboBuilder comboBuilder) {
         this.comboBuilder = comboBuilder;
+        return this;
     }
 
-    public void buildCombo() {
+    public Combo buildCombo() {
         comboBuilder.buildCode();
         comboBuilder.buildProduct();
         comboBuilder.buildDiscount();
         comboBuilder.buildCost();
+
+        return comboBuilder.getCombo();
     }
 }

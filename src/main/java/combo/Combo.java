@@ -25,6 +25,14 @@ public class Combo {
         this.cost = cost;
     }
 
+    public String getCode() {
+        return code;
+    }
+
+    public double getCost() {
+        return cost;
+    }
+
     @Override
     public String toString() {
         return "Code: " + code +
