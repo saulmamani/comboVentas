@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7d9ed06-9440-47c3-a443-1a6280f60832" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Composite/Compuesto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Composite/IComponente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Composite/LectorDVD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Composite/PlacaMadre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Composite/Procesador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Composite/Ram.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Decorator/Cuentas/CuentaCajaAhorro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Decorator/Cuentas/CuentaCajaAhorro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Decorator/Cuentas/CuentaCorriente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Decorator/Cuentas/CuentaCorriente.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="FxmlFile" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -143,7 +147,7 @@
       <workItem from="1580872962497" duration="6819000" />
       <workItem from="1581255311557" duration="4390000" />
       <workItem from="1581473429560" duration="31000" />
-      <workItem from="1581682355610" duration="13468000" />
+      <workItem from="1581682355610" duration="17224000" />
     </task>
     <task id="LOCAL-00001" summary="invetario creado">
       <created>1580607095192</created>
@@ -214,18 +218,18 @@
     <option name="LAST_COMMIT_MESSAGE" value="Patron Facade" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="803" y="272" width="548" height="590" key="#com.intellij.ide.util.MemberChooser" timestamp="1581710485545">
+    <state x="803" y="272" width="548" height="590" key="#com.intellij.ide.util.MemberChooser" timestamp="1581718224658">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state x="803" y="272" width="548" height="590" key="#com.intellij.ide.util.MemberChooser/70.27.1850.1053@70.27.1850.1053" timestamp="1581710485545" />
+    <state x="803" y="272" width="548" height="590" key="#com.intellij.ide.util.MemberChooser/70.27.1850.1053@70.27.1850.1053" timestamp="1581718224658" />
     <state x="748" y="414" width="484" height="297" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1580590456878">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
     <state x="748" y="414" width="484" height="297" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/70.27.1850.1053@70.27.1850.1053" timestamp="1580590456878" />
-    <state x="505" y="27" width="970" height="1053" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1580873416151">
+    <state x="505" y="27" width="970" height="1053" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1581717572591">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state x="505" y="27" width="970" height="1053" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/70.27.1850.1053@70.27.1850.1053" timestamp="1580873416151" />
+    <state x="505" y="27" width="970" height="1053" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/70.27.1850.1053@70.27.1850.1053" timestamp="1581717572591" />
     <state x="728" y="302" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1580595619063">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
