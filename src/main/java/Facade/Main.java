@@ -1,8 +1,5 @@
 package Facade;
 
-import Facade.Api.ApiHotel;
-import Facade.Api.ApiVuelo;
-
 public class Main {
     public static void main(String[] args) {
         Facade solicitud_1 = new Facade();

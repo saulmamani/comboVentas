@@ -1,6 +1,6 @@
 package Adapter;
 
-public class MainGuitar {
+public class Main {
     public static void main(String[] args) {
         System.out.println("------Guitarra electrica");
         Guitarra electrica = new GuitarraElectrica();
