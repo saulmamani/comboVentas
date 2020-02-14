@@ -2,19 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7d9ed06-9440-47c3-a443-1a6280f60832" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Decorator/Cliente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Decorator/Cuentas/CuentaCajaAhorro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Decorator/Cuentas/CuentaCorriente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Decorator/Cuentas/ICuenta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Decorator/Decoradores/CuentaDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Decorator/Decoradores/TarjetaDeCredito.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Decorator/Decoradores/TarjetaDeDebito.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Decorator/Decoradores/TransaccionInternet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Decorator/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Adapter/MainGuitar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Adapter/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Facade/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Facade/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Adapter/MainGuitar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Decorator/Cuentas/CuentaCajaAhorro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Decorator/Cuentas/CuentaCajaAhorro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Decorator/Cuentas/CuentaCorriente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Decorator/Cuentas/CuentaCorriente.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,7 +143,7 @@
       <workItem from="1580872962497" duration="6819000" />
       <workItem from="1581255311557" duration="4390000" />
       <workItem from="1581473429560" duration="31000" />
-      <workItem from="1581682355610" duration="13360000" />
+      <workItem from="1581682355610" duration="13468000" />
     </task>
     <task id="LOCAL-00001" summary="invetario creado">
       <created>1580607095192</created>
@@ -252,22 +242,22 @@
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
     <state x="763" y="282" width="454" height="550" key="FileChooserDialogImpl/70.27.1850.1053@70.27.1850.1053" timestamp="1581256977768" />
-    <state width="1804" height="314" key="GridCell.Tab.0.bottom" timestamp="1581712984985">
+    <state width="1804" height="314" key="GridCell.Tab.0.bottom" timestamp="1581713181365">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state width="1804" height="314" key="GridCell.Tab.0.bottom/70.27.1850.1053@70.27.1850.1053" timestamp="1581712984985" />
-    <state width="1804" height="314" key="GridCell.Tab.0.center" timestamp="1581712984985">
+    <state width="1804" height="314" key="GridCell.Tab.0.bottom/70.27.1850.1053@70.27.1850.1053" timestamp="1581713181365" />
+    <state width="1804" height="314" key="GridCell.Tab.0.center" timestamp="1581713181363">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state width="1804" height="314" key="GridCell.Tab.0.center/70.27.1850.1053@70.27.1850.1053" timestamp="1581712984985" />
-    <state width="1804" height="314" key="GridCell.Tab.0.left" timestamp="1581712984984">
+    <state width="1804" height="314" key="GridCell.Tab.0.center/70.27.1850.1053@70.27.1850.1053" timestamp="1581713181363" />
+    <state width="1804" height="314" key="GridCell.Tab.0.left" timestamp="1581713181362">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state width="1804" height="314" key="GridCell.Tab.0.left/70.27.1850.1053@70.27.1850.1053" timestamp="1581712984984" />
-    <state width="1804" height="314" key="GridCell.Tab.0.right" timestamp="1581712984985">
+    <state width="1804" height="314" key="GridCell.Tab.0.left/70.27.1850.1053@70.27.1850.1053" timestamp="1581713181362" />
+    <state width="1804" height="314" key="GridCell.Tab.0.right" timestamp="1581713181364">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state width="1804" height="314" key="GridCell.Tab.0.right/70.27.1850.1053@70.27.1850.1053" timestamp="1581712984985" />
+    <state width="1804" height="314" key="GridCell.Tab.0.right/70.27.1850.1053@70.27.1850.1053" timestamp="1581713181364" />
     <state width="1804" height="340" key="GridCell.Tab.1.bottom" timestamp="1581703036099">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
