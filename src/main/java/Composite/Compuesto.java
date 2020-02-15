@@ -6,7 +6,6 @@ import java.util.List;
 public class Compuesto implements IComponente {
     private List<IComponente> hijos = new ArrayList<>();
 
-
     @Override
     public void anadir(IComponente componente) {
         this.hijos.add(componente);
@@ -24,7 +23,7 @@ public class Compuesto implements IComponente {
         {
             componente.mostrar();
         }
-        System.out.println("Costo Total: " + this.getPrecio());
+        System.out.printf("Costo Total: %.2f\n", this.getPrecio());
     }
 
     @Override

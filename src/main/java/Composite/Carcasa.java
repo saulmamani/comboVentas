@@ -1,10 +1,10 @@
 package Composite;
 
-public class PlacaMadre implements IComponente {
+public class Carcasa implements IComponente {
     private double precio;
 
-    public PlacaMadre() {
-        this.precio = 120;
+    public Carcasa() {
+        this.precio = 10;
     }
 
     @Override
@@ -19,7 +19,7 @@ public class PlacaMadre implements IComponente {
 
     @Override
     public void mostrar() {
-        System.out.printf("Item: Placa Madre Intel, Costo: %.2f\n", this.precio);
+        System.out.printf("Item: Carcasa de PC, Costo: %.2f\n", this.precio);
     }
 
     @Override

@@ -19,7 +19,7 @@ public class LectorDVD implements IComponente {
 
     @Override
     public void mostrar() {
-        System.out.printf("Item: Lector de DVD LG, Costo: %f\n", this.precio);
+        System.out.printf("Item: Lector de DVD LG, Costo: %.2f\n", this.precio);
     }
 
     @Override

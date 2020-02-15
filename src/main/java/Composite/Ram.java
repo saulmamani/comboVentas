@@ -19,7 +19,7 @@ public class Ram implements IComponente {
 
     @Override
     public void mostrar() {
-        System.out.printf("Item: RAM DDR 3 de 8 GB, Costo: %f\n", this.precio);
+        System.out.printf("Item: RAM DDR 3 de 8 GB, Costo: %.2f\n", this.precio);
     }
 
     @Override
