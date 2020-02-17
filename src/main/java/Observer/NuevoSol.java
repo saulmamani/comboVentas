@@ -1,7 +1,7 @@
 package Observer;
 
 public class NuevoSol implements IObservador {
-    protected SujetoConcreto sujeto;
+    private SujetoConcreto sujeto;
     private double tipoCambio = 2.14;
 
     public NuevoSol(SujetoConcreto sujeto) {
