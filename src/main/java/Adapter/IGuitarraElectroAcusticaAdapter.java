@@ -1,6 +1,6 @@
 package Adapter;
 
-public class GuitarraElectroAcusticaAdapter implements Guitarra {
+public class IGuitarraElectroAcusticaAdapter implements IGuitarra {
     GuitarraAcustica acustica = new GuitarraAcustica();
 
     @Override

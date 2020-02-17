@@ -1,6 +1,6 @@
 package Adapter;
 
-public interface Guitarra {
+public interface IGuitarra {
     void prender();
     void apagar();
 }

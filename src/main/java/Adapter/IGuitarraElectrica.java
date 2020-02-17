@@ -1,6 +1,6 @@
 package Adapter;
 
-public class GuitarraElectrica implements Guitarra {
+public class IGuitarraElectrica implements IGuitarra {
     @Override
     public void prender() {
         System.out.println("Prendido y listo para tocar");
