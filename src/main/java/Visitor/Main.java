@@ -10,11 +10,11 @@ public class Main {
         System.out.printf("Clientes normales: %.2f, Estudidantes: %.2f, Abuelos: %.2f\n", normal.getCosto(), estudiante.getCosto(), abuelo.getCosto());
 
         System.out.println("---Costo con descuento: (En horarios de oficina)");
-        Descuento descuento = new Descuento();
+        IVisitor descuento = new Descuento();
         System.out.printf("Clientes normales: %.2f, Estudidantes: %.2f, Abuelos: %.2f\n", normal.aceptar(descuento), estudiante.aceptar(descuento), abuelo.aceptar(descuento));
 
         System.out.println("---Costo con incremento: (Fines de semana y dias festivos)");
-        Incremento incremento = new Incremento();
+        IVisitor incremento = new Incremento();
         System.out.printf("Clientes normales: %.2f, Estudidantes: %.2f, Abuelos: %.2f\n", normal.aceptar(incremento), estudiante.aceptar(incremento), abuelo.aceptar(incremento));
     }
 }
